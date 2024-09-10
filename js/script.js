@@ -79,6 +79,7 @@ const displayPopularShows = async () => {
 };
 const getData = async (endpoint, page) => {
   const API_url = "https://api.themoviedb.org/3/";
+  //NOT secure But for MiniProject purpose only(free API anyway!!)
   const apiKey = "e16c7f4bbf884d197ed13cd9d83d0155";
   showSpinner();
   const res = await fetch(
